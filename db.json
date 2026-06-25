@@ -1,0 +1,80 @@
+{
+  "employees": [
+    {
+      "id": "emp-001",
+      "name": "Avery Johnson",
+      "currentStage": "Orientation",
+      "progress": {
+        "Orientation": {
+          "taskList": {
+            "Welcome session": true,
+            "Employee handbook review": false,
+            "HR paperwork completed": false
+          }
+        },
+        "Systems Setup": {
+          "taskList": {
+            "Access credentials issued": false,
+            "Workspace configured": false,
+            "Software tools installed": false
+          }
+        },
+        "Role Training": {
+          "taskList": {
+            "Intro to team goals": false,
+            "Role expectations aligned": false,
+            "Training plan scheduled": false
+          }
+        },
+        "Performance Review": {
+          "taskList": {
+            "Initial feedback call": false,
+            "First milestone evaluation": false,
+            "Success metrics reviewed": false
+          }
+        }
+      }
+    },
+    {
+      "id": "emp-002",
+      "name": "Jordan Lee",
+      "currentStage": "Systems Setup",
+      "progress": {
+        "Orientation": {
+          "taskList": {
+            "Welcome session": true,
+            "Employee handbook review": true,
+            "HR paperwork completed": true
+          }
+        },
+        "Systems Setup": {
+          "taskList": {
+            "Access credentials issued": true,
+            "Workspace configured": false,
+            "Software tools installed": false
+          }
+        },
+        "Role Training": {
+          "taskList": {
+            "Intro to team goals": false,
+            "Role expectations aligned": false,
+            "Training plan scheduled": false
+          }
+        },
+        "Performance Review": {
+          "taskList": {
+            "Initial feedback call": false,
+            "First milestone evaluation": false,
+            "Success metrics reviewed": false
+          }
+        }
+      }
+    }
+  ],
+  "stages": [
+    "Orientation",
+    "Systems Setup",
+    "Role Training",
+    "Performance Review"
+  ]
+}
